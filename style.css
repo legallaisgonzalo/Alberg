@@ -1,291 +1,296 @@
-
-body{
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgba(24, 135, 199, 0);
-    color: rgb(0, 0, 0);
-    font-weight: 700;
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(24, 135, 199, 0);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    align-items: center;
-    float: right;
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: center;
+  float: right;
 }
-.nombre{
-    font-size: 70px;
-    color: rgb(22, 56, 117);
-    text-shadow: 2px 4px 12px white;
+.nombre {
+  font-size: 70px;
+  color: rgb(22, 56, 117);
+  text-shadow: 2px 4px 12px white;
 }
-.banner{
-    background: url("img/pexels-fauxels-3184296.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    width: 100%;
+.slogan {
+  font-family: "Open Sans", sans-serif;
+  color: #212121;
+  font-size: 24px;
 }
 
-.banner2{
-    background-color: rgba(255, 255, 255, 0.527);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    width: 100%;
-}
-.a-menu{
-    padding: 10px;
-    margin: 10px;
-}
-.medio{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;    
-
-}
-.medio-b{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.nosotros{
-    padding: 15px;
-}
-.servicios{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-
-}
-.serv{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 325px;
-    width: 90%;
-    padding: 0px;
-    transition: 1s;
+.banner {
+  background: url("img/pexels-fauxels-3184296.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  padding: 0;
 }
 
-.serv:hover{
-    transition: 1s;
-    z-index: 1;
+.banner2 {
+  background-color: rgba(255, 255, 255, 0.527);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
 }
-.virus:hover{
-    transform: scale(1.2);
-    transition: 1s;
+.a-menu {
+  padding: 10px;
+  margin: 10px;
 }
-.virus{
-    transition: 1s;
+.medio {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.despedido1:hover{
-    transform: scale(1.2);
-    transition: 1s;
+.medio-b {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.despedido1{
-    transition: 1s;
+.nosotros {
+  padding: 15px;
 }
-.accidente:hover{
-    transform: scale(1.2);
-    transition: 1s;
+.servicios {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
-.accidente{
-    transition: 1s;
-}
-.qs{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
-.parrafos{
-    font-size: 20px;
-
-}
-.contacto{
-    padding: 20px;
-}
-
-.wpp{
-    float: right;
-    bottom: 0;
-    position: fixed;
-    z-index: 99999;
-    display: flex;
-    padding: 1rem;
-}
-.menu-nav{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-nav{
-    background-color: white;
-}
-.navbar{
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    float: right;
+.serv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  width: 90%;
+  padding: 0px;
+  transition: 1s;
 }
 
-.anav-link{
-    color: rgb(49, 94, 136);
-    font-weight: 800;
-    padding: 10px;
-    font-size: 20px;
-    list-style: none;
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
+.serv:hover {
+  transition: 1s;
+  z-index: 1;
+}
+.virus:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.virus {
+  transition: 1s;
+}
+.despedido1:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.despedido1 {
+  transition: 1s;
+}
+.accidente:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.accidente {
+  transition: 1s;
+}
+.qs {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.parrafos {
+  font-size: 20px;
+}
+.contacto {
+  padding: 20px;
 }
 
-.anav-link:hover{
-    color: rgb(180, 99, 99);
-    transition: 1s;
-    text-decoration: none;
+.wpp {
+  float: right;
+  bottom: 0;
+  position: fixed;
+  z-index: 99999;
+  display: flex;
+  padding: 1rem;
+}
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  background-color: white;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 100%;
 }
 
-iframe{
-    width: auto;
-}
-.abtn{
-    width: 100%;
-}
-
-.inferior{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    padding: 10px;
-}
-.form-group{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-items: left;
-    justify-content: center;
-
-}
-form{
-    padding: 15px;    
-
+.anav-link {
+  color: rgb(49, 94, 136);
+  font-weight: 800;
+  padding: 10px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.anav-link:hover {
+  color: rgb(180, 99, 99);
+  transition: 1s;
+  text-decoration: none;
 }
 
-.acord{
-    padding: 20px;
+iframe {
+  width: auto;
 }
-.redes{
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+.abtn {
+  width: 100%;
 }
-.capa-media{
-    background-color: rgba(173, 216, 230, 0.438);
+
+.inferior {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 10px;
 }
-.datos{
-    color: white;
-    font-size: 22px;
-    height: 75vh;
-    background-color: rgb(39, 89, 139);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: center;
 }
-.foot{
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 16px;
+form {
+  padding: 15px;
 }
-.equipo{
-    color: white;
-    justify-content: center;
-    align-items: left;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgb(27, 66, 102);
-    height: 75vh;
-    list-style-type: none;
-    font-size: 25px;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-.rec{
-   transform: rotate(5deg);
+
+.acord {
+  padding: 20px;
 }
-.recuadro{
-    border-left: solid rgb(255, 255, 255) 10px;
-    border-right: solid rgb(255, 255, 255) 10px;
-    border-bottom: solid rgb(255, 255, 255) 10px;
-    transform: translatex(-20px);
+.redes {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.capa-media {
+  background-color: rgba(173, 216, 230, 0.438);
+}
+.datos {
+  color: white;
+  font-size: 22px;
+  height: 75vh;
+  background-color: rgb(39, 89, 139);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.foot {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 16px;
+}
+.equipo {
+  color: white;
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(27, 66, 102);
+  height: 75vh;
+  list-style-type: none;
+  font-size: 25px;
+}
+.rec {
+  transform: rotate(5deg);
+}
+.recuadro {
+  border-left: solid rgb(255, 255, 255) 10px;
+  border-right: solid rgb(255, 255, 255) 10px;
+  border-bottom: solid rgb(255, 255, 255) 10px;
+  transform: translatex(-20px);
 }
 .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
-@media (max-width: 800px){
-    .menu-nav{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .datos{
-        height: 85vh;
-    }
-    .rec{
-        transform: rotate(0deg);
-     }
-    .recuadro{
-        display: none; }
-    .equipo{
-        height: auto;
-    }
+@media (max-width: 800px) {
+  .menu-nav {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .datos {
+    height: 85vh;
+  }
+  .rec {
+    transform: rotate(0deg);
+  }
+  .recuadro {
+    display: none;
+  }
+  .equipo {
+    height: auto;
+  }
+}
