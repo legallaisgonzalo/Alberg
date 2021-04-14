@@ -7,41 +7,47 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Estudio Juridico</title>
 
 </head>
 <body>
    <div class="menu-nav container">
    <a class=" navbar-brand" href="#"><img src="img/logosf.png" height="275px" width="295px" alt=""></a>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="anav-link" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="anav-link" href="#">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="anav-link" href="empresas.html">Para empleadores</a>
-        </li>
-      </ul>
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 text-left">
+          <li class="nav-item">
+            <a class="anav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="anav-link" href="#contacto">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="anav-link" href="./empresas.html">EMPLEADORES</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </div>
 
-<div class="col banner">
+<div class="headline col banner">
   <div class="banner2 container-fluid">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-                 <h1 class="nombre"> ESTUDIO ALBERG </h1>
-                <h2>Estudio Juridico Laboral</h2>         
+          
+                 <h1 class=" nombre"> ESTUDIO ALBERG </h1>
+                 <h2 class="tagline">Estudio Juridico Laboral</h2>
+                         
         </div>
       </div>
     </div>
@@ -50,7 +56,7 @@
 
 
 <div class="shadow-lg servicios">
-   <h1>AREAS DE PRACTICA</h1>
+   <h1 class="punchline">AREAS DE PRACTICA</h1>
     <div class="container-fluid">
     <div class="row">
         <div class="serv  col-12 col-sm-12 col-md-4 col-lg-4">
@@ -92,10 +98,10 @@
       
        
         <h2>¿QUIENES SOMOS?</h2> <hr>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti atque,
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti atque,
       rerum obcaecati beatae eos dignissimos laudantium doloremque nobis quos, quasi sed 
       consequuntur nihil quia quas saepe ipsam. Maiores repellendus voluptatem ea sapiente, 
-      praesentium dignissimos saepe consequuntur et earum, suscipit atque? Ipsum, saepe?
+      praesentium dignissimos saepe consequuntur et earum, suscipit atque? Ipsum, saepe?</p> 
 
       
     </div>
@@ -111,7 +117,7 @@
     <div class="col-12">LLENA EL<h1> FORMULARIO</h1>
     <h3>En la brevedad nos comunicaremos con vos</h3></div> 
 
-<div  class="contacto container shadow-lg">
+<div id="contacto" class="contacto container shadow-lg">
     <div class="row">
         
         <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
@@ -155,7 +161,7 @@
          <ul><img src="img/email.png" height="25px" width="25px" alt=""> Marceloalberg@gmail.com</ul> 
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-       <h2>Seguinos tambien en:</h2> 
+       <h2>SEGUINOS TAMBIEN EN</h2> 
         <ul><img src="img/instagram.png" height="25px" width="25px" alt=""> Alberg Estudio</ul>
         <ul><img src="img/facebook.png" height="25px" width="25px" alt=""> Alberg Estudio</ul> 
       </div>
@@ -166,12 +172,20 @@
   </div>
 </div>
 
-<a class="wpp" href="#"><img style="height: 70px; width: 70px;" src="img/whatsapp.png" alt=""></a>
+<a class="wpp" href="https://api.whatsapp.com/send?phone=541136733679&text=Hola,%20quisiera%20asesoramiento"><img style="height: 70px; width: 70px;" src="img/whatsapp.png" alt=""></a>
 
     <footer>
         <p style="color: rgb(0, 0, 0);"> creó  <span> <a href="www.instagram.com/mago.code"></a> Legallais Gonzalo</span></p>
     </footer>
 
+
+  
+    <script>
+      ScrollReveal().reveal('.headline', { delay: 700 }) 
+      ScrollReveal().reveal('.tagline', { delay: 600 })
+    </script>
+  </body>
+  </html>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
