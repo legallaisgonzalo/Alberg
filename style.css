@@ -3,7 +3,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     background-color: rgba(24, 135, 199, 0);
     color: rgb(0, 0, 0);
-    font-weight: 600;
+    font-weight: 500;
 }
 h1,H2,H3{
     font-family: "Oswald", sans-serif;
@@ -262,7 +262,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(27, 66, 102);
+    background-color: rgb(15, 37, 58);
     height: 75vh;
     list-style-type: none;
     font-size: 25px;
