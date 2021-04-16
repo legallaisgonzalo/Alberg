@@ -1,17 +1,17 @@
 
 body{
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgba(24, 135, 199, 0);
-    color: rgb(0, 0, 0);
+    color: rgb(58, 57, 57);
     font-weight: 500;
+    font-family: "Oswald", sans-serif;;
 }
 h1,H2,H3{
     font-family: "Oswald", sans-serif;
     font-weight: 800;
 }
-h5{
+h5,h4{
+    font-size: 24px;
+    font-weight: 500;
     font-family: 'Quicksand';
-    font-size: 20px;
 }
 .anav-item{
     font-family: "Oswald", sans-serif;
@@ -27,6 +27,17 @@ header{
     font-size: 55px;
     color: rgb(22, 56, 117);
     text-shadow: 2px 4px 12px white;
+}
+.banner-wp{
+    background-color: rgb(28, 53, 99);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .banner{
     background: url("img/pexels-fauxels-3184296.jpg");
@@ -87,6 +98,9 @@ header{
     justify-content: center;
     padding: 0px;
 
+}
+a:hover{
+    text-decoration: none;
 }
 .serv{
     display: flex;
