@@ -6,12 +6,11 @@ p{
     font-family: "Oswald",sans-serif;
     font-weight: 500;
 }
-h1,H2,H3{
+h1,h2,h3{
     font-family: "Oswald", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 h5,h4{
-    font-size: 20px;
     font-weight: 500;
     font-family: 'Quicksand';
 }
@@ -316,7 +315,9 @@ a{
     color: black;
     text-decoration: none;
 }
-
+ul{
+    font-family: 'Oswald' sans-serif;
+}
 @media (max-width: 800px){
     .nombre{
         font-size: 18px;
